@@ -1,0 +1,68 @@
+@media (max-width: 670px) {
+  .container, .contentStripe__container, .notificationBar--oldBrowser {
+    padding: 0 12px;
+   }
+  .footer .grid {
+    margin: 0;
+   }
+  .footer_global {
+     background-image: url(/static/images/global/wordmark_footer.png);
+   }
+  .footer_global .info_block {
+     border-bottom: 1px solid #b3b3b3;
+   }
+  .med_size4of12 {
+       width: 33.33333%;
+   }
+  .footer_global h4 {
+    margin: 0 20px;
+    font-size: 1.1em;
+   }
+  .footer a {
+    color: #3d3935;
+   }
+  #nav a, .footer a {
+    font-weight: 400;
+  }
+  a:link, a:visited {
+    color: #2a8a15;
+    font-weight: 700;
+   }
+  .footer_global h4 label {
+     font-size: 10px;
+   }
+  button, input {
+    line-height: normal;
+  }
+  button, input, select, textarea {
+    font-size: 1em;
+    padding: 4px 6px;
+    border-radius: 0;
+    background: #ededed;
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .footer_global input~ol {
+    transition: max-height .1s ease;
+  }
+  .footer_global ol {
+     margin-left: 20px;
+    }
+      ol {
+        list-style: decimal;
+        margin-left: 18px;
+      }
+  .footer li {
+      margin: 0;
+   }
+  .column, .contentStripe__content, .contentStripe__media {
+    padding: 0 12px;
+  }
+  .filters .coffeeFilters li, a:link, span.sb_tooltip {
+      -webkit-tap-highlight-color: transparent;
+    }
+  .btn_group--centered .btn_group__button_wrapper .btn_group__button, .utility_list>li, [data-icon] {
+        display: inline-block;
+        }
+
+}
