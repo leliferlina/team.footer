@@ -1,0 +1,204 @@
+.footer {
+    padding: 0;
+    border-bottom: 8px solid #382F2D;
+    min-height: 190px;
+    color: #382f2d;
+    line-height: 1.090909;
+}
+.container, .contentStripe__container, .notificationBar--oldBrowser {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.footer-top .grid {
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #382f2d;
+    font: inherit;
+    text-align: left;
+    font-family: NoSpace;
+    padding-bottom: 5px;
+    background-color: #f7f7f7;
+}
+.footer_global {
+  background-image: url(/media/wordmark_footer_tcm33-397.png);
+  min-height: 205px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-position: 98.5% 0;
+  background-size: 16px;
+}
+.footer_global .info_block {
+    border-bottom: none;
+    padding: 0;
+    float: left;
+  }
+.med_size4of12 {
+    width: calc(100%*4/12 - .01px);
+}
+.footer_global h4 {
+    font-size: 1.2em;
+    margin: 0 12px;
+    padding: 18px 0;
+}
+.footer h4, .footer h4 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: #3D3935;
+}
+.footer a, .footer button {
+    transition: color 125ms ease-in-out,background-color 125ms ease-in-out;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+.filters .coffeeFilters li, a:link, span.sb_tooltip {
+    -webkit-tap-highlight-color: transparent;
+}
+.footer_global h4 label {
+    display: none;
+    padding: 10px 20px;
+    margin: -10px -20px 0 0;
+    font-size: 1rem;
+    float: right;
+    cursor: pointer;
+    line-height: 2;
+    transition: all .2s ease-out;
+  }
+.footer input {
+    background: #fff;
+    font-size: 1em;
+    line-height: 1.3;
+    padding: 4px 6px;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-radius: 4px;
+}
+.footer_global input, .footer_global li:last-child h4 {
+    display: none;
+}
+button, input, select, textarea {
+    margin: 0;
+    border: 2px solid #ededed;
+    color: #3d3a35;
+    vertical-align: baseline;
+}
+.footer_global input~ol {
+    margin-bottom: 1.714286em;
+    max-height: none;
+    overflow: visible;
+}
+.footer_global ol {
+    margin: 0;
+    padding:0 18px 0;
+}
+.footer_global li {
+    margin: 0 0 12px;
+    font-size: 1em;
+    overflow: hidden;
+    clear: both;
+    padding: 0;
+    margin-bottom: .85714em;
+}
+.footer_global li:last-child {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.footer-media {
+    background-color: #f0f0f0;
+    margin: 2px 0px;
+    padding: 45px 0;
+    text-align: left;
+}
+.footer-media p{
+  font-size: 18px;
+  color: #3D3935;
+  margin: 2px 3px 2px 3px;
+  padding: 0px 0px 0px 0px;
+}
+.footer-media ul {
+  margin: 2px 2px 2px 2px;
+  padding: 0px 7px;
+}
+
+.footer-media li {
+  list-style: none;
+  float: left;
+  margin: 2px 7px;
+  padding: 7px;
+}
+footer .sb-social-icons .twitter a {
+    background-position: -26px 0;
+    width: 29px;
+}
+.footer .sb-social-icons a {
+    float: left;
+    width: 45px;
+    height: 31px;
+    background: url(/static/images/social_icons.png) no-repeat;
+    background-size: auto 100%;
+    transition: opacity 125ms ease-in-out;
+}
+
+
+
+.footer_bottom {
+  text-align: left;
+}
+
+.footer_sub {
+  list-style: none;
+  padding: 7px 5px ;
+}
+.footer_sub a {
+  font: inherit;
+  color: #382f2d;
+  float: left;
+  text-align: left;
+  padding: 0 7px;
+  border-right: 1px solid #b3b3b3;
+  text-decoration:  initial;
+  font-size: 13px;
+}
+
+.footer_copyright {
+  color: #382f2d;
+  font-size: 10px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.whatsapp {
+    background: rgba(47, 199, 9, 0.9);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 95px;
+    right: 50px;
+    z-index: 5;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+}
+.fab {
+    text-rendering: auto;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.fa-whatsapp:before {
+    content: "\f232;
+}
