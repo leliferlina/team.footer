@@ -202,3 +202,36 @@ footer .sb-social-icons .twitter a {
 .fa-whatsapp:before {
     content: "\f232;
 }
+.footer .sb-social-icons .twitter a {
+    background-position: -26px 0;
+    width: 29px;
+}
+.footer .sb-social-icons a {
+    float: left
+    height: 31px;
+    background: url(/static/images/social_icons.png) no-repeat;
+    background-size: auto 100%;
+    transition: opacity 125ms ease-in-out;
+}
+.footer .sb-social-icons .instagram a {
+    background-position: -112px 0;
+    width: 28px;
+}
+.footer .sb-social-icons a {
+    float: left;
+    height: 31px;
+    background: url(/static/images/social_icons.png) no-repeat;
+    background-size: auto 100%;
+    transition: opacity 125ms ease-in-out;
+}
+.footer .sb-social-icons .facebook a {
+    background-position: 0 0;
+    width: 25px;
+}
+.footer .sb-social-icons a {
+    float: left;
+    height: 31px;
+    background: url(/static/images/social_icons.png) no-repeat;
+    background-size: auto 100%;
+    transition: opacity 125ms ease-in-out;
+}
