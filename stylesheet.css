@@ -113,38 +113,34 @@ button, input, select, textarea {
 .footer-media {
     background-color: #f0f0f0;
     margin: 2px 0px;
-    padding: 45px 0;
+    padding: 35px 0;
     text-align: left;
 }
-.footer-media p{
-  font-size: 18px;
-  color: #3D3935;
-  margin: 2px 3px 2px 3px;
-  padding: 0px 0px 0px 0px;
-}
-.footer-media ul {
-  margin: 2px 2px 2px 2px;
-  padding: 0px 7px;
-}
-
 .footer-media li {
-  list-style: none;
   float: left;
-  margin: 2px 7px;
-  padding: 7px;
+  list-style: none;
+  padding: 5px 0 20px 5px ;
 }
-footer .sb-social-icons .twitter a {
-    background-position: -26px 0;
-    width: 29px;
-}
-.footer .sb-social-icons a {
-    float: left;
+.footer-media .sb-social-icons a {
     width: 45px;
     height: 31px;
     background: url(/static/images/social_icons.png) no-repeat;
     background-size: auto 100%;
     transition: opacity 125ms ease-in-out;
 }
+.footer-media .sb-social-icons .twitter a {
+    background-position: -26px 0;
+    width: 29px;
+}
+.footer-media .sb-social-icons .instagram a {
+    background-position: -112px 0;
+    width: 28px;
+}
+.footer-media .sb-social-icons .facebook a {
+    background-position: 0 0;
+    width: 25px;
+}
+
 
 
 
@@ -201,37 +197,4 @@ footer .sb-social-icons .twitter a {
 
 .fa-whatsapp:before {
     content: "\f232;
-}
-.footer .sb-social-icons .twitter a {
-    background-position: -26px 0;
-    width: 29px;
-}
-.footer .sb-social-icons a {
-    float: left
-    height: 31px;
-    background: url(/static/images/social_icons.png) no-repeat;
-    background-size: auto 100%;
-    transition: opacity 125ms ease-in-out;
-}
-.footer .sb-social-icons .instagram a {
-    background-position: -112px 0;
-    width: 28px;
-}
-.footer .sb-social-icons a {
-    float: left;
-    height: 31px;
-    background: url(/static/images/social_icons.png) no-repeat;
-    background-size: auto 100%;
-    transition: opacity 125ms ease-in-out;
-}
-.footer .sb-social-icons .facebook a {
-    background-position: 0 0;
-    width: 25px;
-}
-.footer .sb-social-icons a {
-    float: left;
-    height: 31px;
-    background: url(/static/images/social_icons.png) no-repeat;
-    background-size: auto 100%;
-    transition: opacity 125ms ease-in-out;
 }
