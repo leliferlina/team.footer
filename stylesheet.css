@@ -109,17 +109,19 @@ button, input, select, textarea {
     padding: 0;
     border-bottom: 0;
 }
-
 .footer-media {
     background-color: #f0f0f0;
     margin: 2px 0px;
-    padding: 35px 0;
+    padding: 35px;
     text-align: left;
 }
-.footer-media li {
+.footer-media .sb-social-icons li {
   float: left;
   list-style: none;
-  padding: 5px 0 20px 5px ;
+  width: 55px;
+  height: 31px;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
 }
 .footer-media .sb-social-icons a {
     width: 45px;
@@ -140,9 +142,6 @@ button, input, select, textarea {
     background-position: 0 0;
     width: 25px;
 }
-
-
-
 
 .footer_bottom {
   text-align: left;
